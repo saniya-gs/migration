@@ -18,3 +18,10 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version:'3.8.1'
 }
+jar{
+        manifest{
+                attribute(
+                        'Main-Class': 'com.example.App'
+                        )
+        }
+}
