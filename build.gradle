@@ -20,7 +20,7 @@ dependencies {
 }
 jar{
         manifest{
-                attribute(
+                attributes(
                         'Main-Class': 'com.example.App'
                         )
         }
